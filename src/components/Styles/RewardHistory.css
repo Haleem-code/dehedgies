@@ -1,0 +1,61 @@
+.Rewards-body {
+  margin-top: 3rem;
+  padding: 1.625rem 2rem;
+  border-radius: 1rem;
+  background-color: #1a1e23;
+}
+
+.table-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+.reward-records {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 3.5rem;
+  /* gap: 30rem; */
+  padding: 0 2rem;
+  background-color: #2a3038;
+}
+
+.history-username {
+  display: flex;
+  align-items: center;
+}
+
+.x-image {
+  height: 2.8rem;
+  margin-top: 0.5rem;
+}
+
+.history-rewards {
+  display: flex;
+  align-items: center;
+}
+
+.sol-image {
+  height: 2rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 547px) {
+  .table-head h2 {
+    font-size: 1.4rem;
+  }
+
+  .reward-records {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .x-image,
+  .sol-image {
+    height: 2.2rem;
+  }
+}

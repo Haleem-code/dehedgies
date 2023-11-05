@@ -1,0 +1,224 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-container {
+  /* transform: translateX(50%, -50%); */
+  padding: 3.1875rem 2.875rem;
+  border-radius: 1rem;
+  background-color: #1a1e23;
+  margin-top: 3rem;
+}
+
+.x-username {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.account {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.overview {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.twitter--box {
+  display: flex;
+  width: 41.065rem;
+  height: 4.5rem;
+  padding: 0rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: #2a3038;
+  margin-bottom: 3rem;
+}
+
+.status-head {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.status-card {
+  display: flex;
+  gap: 1rem;
+}
+
+.status-col-1,
+.status-col-2 {
+  width: 20rem;
+  height: 18rem;
+  padding: 2rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background: #2a3038;
+}
+
+.sol-img,
+.lb-img {
+  margin-bottom: 2rem;
+}
+
+.earning {
+  text-transform: uppercase;
+}
+
+.status {
+  margin-bottom: 2rem;
+}
+
+.wallet--head {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.wallet--box {
+  width: 41.025rem;
+  height: 4.5rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: #2a3038;
+}
+
+/******* RESPONSIVENESS  ***********/
+
+@media (max-width: 890px) {
+  .twitter--box {
+    width: 30.065rem;
+    height: 4.5rem;
+  }
+
+  .wallet--box {
+    width: 30.065rem;
+    height: 4.5rem;
+    font-size: 1rem;
+  }
+
+  .status-col-1,
+  .status-col-2 {
+    width: 14.5rem;
+    height: 16rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .earning {
+    font-size: 1.2rem;
+  }
+
+  .sol-img,
+  .lb-img {
+    height: 4rem;
+  }
+
+  .amount,
+  .rank {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .status-card {
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .sol-img,
+  .lb-img {
+    height: 3.2rem;
+  }
+
+  .status-col-1,
+  .status-col-2 {
+    width: 16.5rem;
+    height: 16rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .earning,
+  .amount,
+  .rank {
+    font-size: 1.1rem;
+  }
+
+  .twitter--box,
+  .wallet--box {
+    /* justify-content: center; */
+    /* gap: 4rem; */
+    width: 25.065rem;
+    font-size: 0.7rem;
+  }
+
+  .status-head,
+  .overview,
+  .wallet--head {
+    font-size: 1.5rem;
+  }
+
+  .x-username {
+    font-size: 1.1rem;
+  }
+
+  .x-avatar {
+    height: 2.5rem;
+  }
+
+  .tweet-icon {
+    height: 1.8rem;
+  }
+
+  .wallet-address {
+    font-size: 1.2rem;
+  }
+
+  .earning {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 459px) {
+  .twitter--box,
+  .wallet--box {
+    width: 22rem;
+  }
+
+  .earning {
+    font-size: 0.95rem;
+  }
+
+  .x-username {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 442px) {
+  .status-card {
+    flex-direction: column;
+  }
+  .wallet-address {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .twitter--box,
+  .wallet--box {
+    width: 18rem;
+  }
+
+  .earning {
+    font-size: 0.8rem;
+  }
+}

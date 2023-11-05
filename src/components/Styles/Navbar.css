@@ -1,0 +1,165 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 2rem;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background-color: #16171a;
+  color: #fff;
+  width: 100%;
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+
+  color: #fff;
+}
+
+.logo-color {
+  font-family: "Permanent Marker", cursive;
+  color: #17569b;
+}
+:root {
+  --lb: #17569b;
+  --cd: #2a3038;
+}
+.menu-icon {
+  display: none;
+}
+
+.navbar {
+  height: auto;
+  background-color: var(--cd);
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-elements ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-elements ul a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-elements ul li i {
+  font-size: 20px;
+  /* margin-right: px; */
+  margin-top: 4px;
+}
+
+/* .nav-elements ul li a::after {
+  content: "";
+  width: 0%;
+  background-color: var(--lb);
+  height: 3px;
+  display: flex;
+  transition: 0.05s;
+}
+
+.nav-elements ul li a:hover::after {
+  width: 100%;
+} */
+
+.nav-elements ul li a:hover {
+  color: #fff;
+}
+
+.nav-elements ul li a.active {
+  background-color: #17569b;
+  border-radius: 10px;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 890px) {
+  .container {
+    padding: 5.5vw;
+  }
+
+  .navbar {
+    height: 7rem;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+    z-index: 4;
+    margin-left: -35rem;
+    margin-top: 5px;
+  }
+
+  .nav-elements {
+    position: absolute;
+    width: 0px;
+    height: 100vh;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    transition: all 0.1s step-end;
+    opacity: 90%;
+  }
+
+  .nav-elements.active {
+    width: 200px;
+    background-color: var(--cd);
+    margin-left: -35rem;
+    transition: 0.8s;
+    padding-top: 3rem;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    list-style: none;
+    padding-left: 20px;
+  }
+  .nav-elements ul li {
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,168 @@
+body {
+  background: #1a1e23;
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+.card-body-container {
+  border-radius: 1rem;
+
+  /* padding: 1.625rem 2rem; */
+}
+
+#main {
+  padding: 1.625rem 2rem;
+  border-radius: 1rem;
+  background: #1a1e23;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+.card-task-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card {
+  border-radius: 0.625rem;
+  background: #2a3038;
+  width: 25.375rem;
+  padding: 1.3125rem 1.25rem;
+  /* display: flex; */
+  align-items: center;
+  /* gap: 2.1875rem; */
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.card:active {
+  opacity: 100%;
+  transform: translateY(2px);
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.x-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.task-amount h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.task-amount p {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 2rem;
+}
+
+.reward-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.sol-icon {
+  width: 2rem;
+  height: 2.125rem;
+}
+
+.sol-amount {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.reward-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reward {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reward-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reward p {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.info-icon {
+  cursor: pointer;
+}
+
+@media (max-width: 1332px) {
+  .card {
+    width: 22rem;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1144px) {
+  .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1044px) {
+  .card {
+    width: 18rem;
+  }
+}
+@media (max-width: 948px) {
+  .card {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 864px) {
+  .card {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .card {
+    width: 24rem;
+  }
+}
+
+@media (max-width: 404px) {
+  .card {
+    width: 20rem;
+  }
+}

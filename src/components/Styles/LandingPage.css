@@ -1,0 +1,156 @@
+body {
+  background-color: black;
+}
+
+.landing-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.welcome-col {
+  width: 51.75rem;
+}
+
+.home-img {
+  width: 24rem;
+  height: 21rem;
+}
+
+.welcome {
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.button {
+  width: 20.125rem;
+  padding: 0.8125rem 4.75rem;
+  background: #17569b;
+  border: none;
+  color: #f8fafc;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.landing-tweet {
+  height: 1.2rem;
+  padding-top: 3px;
+}
+
+.btn-box:hover {
+  opacity: 80%;
+  transform: translateY(-2px);
+}
+
+.btn-box:active {
+  transform: translateY(2px);
+}
+
+@media (max-width: 1220px) {
+  .welcome {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .landing-body {
+    flex-direction: column-reverse;
+  }
+
+  .welcome {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 803px) {
+  .home-img {
+    height: 15rem;
+  }
+
+  .welcome {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 794px) {
+  .welcome-col {
+    width: 35rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 569px) {
+  .welcome-col {
+    width: 28rem;
+  }
+  .welcome {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 437px) {
+  p {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .welcome-col {
+    width: 24rem;
+  }
+  .button {
+    width: 16.125rem;
+    padding: 0.6rem 3rem;
+  }
+  .home-img {
+    height: 12rem;
+  }
+}
+
+@media (max-width: 389px) {
+  .welcome-col {
+    width: 22rem;
+  }
+}
