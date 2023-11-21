@@ -14,12 +14,9 @@ const Navbar = () => {
       <div className="container">
         <div className="logo-box">
           <span>
-            <img src="images/sonic.png" alt="logo-icon" className="logo-icon" />
+            {/* <img src="images/sonic.png" alt="logo-icon" className="logo-icon" /> */}
           </span>
-            <h1>
-              DEH<span className="logo-color">EDG</span>IES
-            </h1>
-          
+          <h1 className="logo">DEHEDGIES</h1>
         </div>
 
         <div className="menu-icon" onClick={handleShowNavbar}>

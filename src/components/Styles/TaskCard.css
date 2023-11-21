@@ -123,6 +123,20 @@ body {
 
 .info-icon {
   cursor: pointer;
+  color: #fff;
+  margin-top: 0.4rem;
+}
+
+.info-icon:hover {
+  color: #10151a;
+}
+
+.reward-info {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 1332px) {

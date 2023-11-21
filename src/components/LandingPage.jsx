@@ -1,5 +1,6 @@
 import React from "react";
 import "./Styles/LandingPage.css";
+
 function LandingPage() {
   return (
     <section className="landing-body">
@@ -8,17 +9,17 @@ function LandingPage() {
         <p>
           We will provide you with tasks on this page. By completing these tasks
           you will earn priority status and rewards. your initial task is to
-          connect your wallet.
+          connect your Twitter.
         </p>
         <div className="btn-box">
-          <a className="button">
+          <button className="button">
             <img
               src="images/twitter.svg"
               alt="x-icon"
               className="landing-tweet"
             />
             Connect Twitter
-          </a>
+          </button>
         </div>
       </div>
 

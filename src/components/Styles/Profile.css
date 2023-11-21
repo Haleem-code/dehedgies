@@ -5,6 +5,33 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.acc-connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connect-wallet {
+  margin-top: -1.6rem;
+  padding: 0.7rem;
+  color: #fff;
+  background-color: #17569b;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connect-wallet:hover {
+  background-color: #fff;
+  color: #17569b;
+}
+
+.connect-wallet:active {
+  color: #fff;
+  background-color: #17569b;
+}
 
 .profile-container {
   /* transform: translateX(50%, -50%); */
@@ -15,7 +42,7 @@ body {
 }
 
 .x-username {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -64,6 +91,15 @@ body {
   font-size: 1.2rem;
   border-radius: 0.5rem;
   background: #2a3038;
+}
+
+.status-col-1:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.status-col-1:active {
+  opacity: 100%;
 }
 
 .sol-img,

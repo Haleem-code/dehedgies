@@ -5,7 +5,10 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <section className="intro">
-        <h2 className="account">ACCOUNT</h2>
+        <div className="acc-connect">
+          <h2 className="account">ACCOUNT</h2>
+          <button className="connect-wallet">Connect Wallet</button>
+        </div>
         <div>
           <h3 className="overview">Overview</h3>
         </div>
