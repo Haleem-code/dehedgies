@@ -9,13 +9,10 @@ const Navbar = () => {
     setShowNavbar(!showNavbar);
   };
 
-  return (<></>
+  return (
     <nav className="navbar">
       <div className="container">
         <div className="logo-box">
-          <span>
-            {/* <img src="images/sonic.png" alt="logo-icon" className="logo-icon" /> */}
-          </span>
           <h1 className="logo">DEHEDGIES</h1>
         </div>
 
