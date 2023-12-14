@@ -9,7 +9,7 @@ const Navbar = () => {
     setShowNavbar(!showNavbar);
   };
 
-  return (
+  return (<></>
     <nav className="navbar">
       <div className="container">
         <div className="logo-box">
