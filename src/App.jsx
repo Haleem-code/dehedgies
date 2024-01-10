@@ -16,7 +16,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-
         <Route path="/Tasks" element={<Tasks />} />
         <Route path="/RewardsHistory" element={<Rewards />} />
         <Route path="/Profile" element={<Profile />} />

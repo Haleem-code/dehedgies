@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.logo {
+  color: #fff;
+}
+
 .logo-box {
   display: flex;
   align-items: center;

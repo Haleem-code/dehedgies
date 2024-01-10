@@ -13,7 +13,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo-box">
-          <h1 className="logo">DEHEDGIES</h1>
+          <NavLink to="/">
+            <h1 className="logo">DEHEDGIES</h1>
+          </NavLink>
         </div>
 
         <div className="menu-icon" onClick={handleShowNavbar}>
